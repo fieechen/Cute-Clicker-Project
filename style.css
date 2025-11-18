@@ -4,12 +4,17 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif, sans-serif;
     text-align: center;
     margin-top: 50px;
-    align-items: center;
+    
 }
 
 #counter {
     font-size: 60px;
     margin: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    color:#f59c9c;
 }
 
 button {
