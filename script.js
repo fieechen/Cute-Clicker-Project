@@ -1,6 +1,6 @@
 let count = 0;
 
-document.getElementById("clickBtn").addEventListener("click", () => {
+document.getElementById("clickImg").addEventListener("click", () => {
     count++;
     document.getElementById("counter").textContent = count;
 });
