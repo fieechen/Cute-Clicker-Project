@@ -4,6 +4,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif, sans-serif;
     text-align: center;
     margin-top: 50px;
+    align-items: center;
 }
 
 #counter {
@@ -26,4 +27,25 @@ button {
 
 #clickImg:active {
     transform: scale(0.95);
+}
+
+#clickArea {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #f0c27b; /* normal */
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex; /* flexbox für zentrierten Inhalt */
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center; /* vertikal zentrieren */
+}
+
+#clickArea:hover {
+    background-color: #f7b733; /* hover */
+}
+
+#clickArea:active {
+    background-color: #d35400; /* clicked */
 }
