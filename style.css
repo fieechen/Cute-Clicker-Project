@@ -18,8 +18,15 @@ body {
 }
 
 #counter {
-    font-size: 60px;
-    margin: 0px;
+    font-size: 42px;
+    height: 50px;
+    margin-right: -300px;
+    text-align: center; 
+    background-image: url("Char\ wechseln.png");
+    background-size: contain;      /* Bild vollständig anzeigen */
+    background-position: center;   /* schön mittig */
+    background-repeat: no-repeat;  /* nicht wiederholen */
+    background-color: transparent; /* sonst schimmert was durch */
 }
 
 h1 {
@@ -33,17 +40,19 @@ h1 {
 
 button {
     font-size: 24px;
-    padding: 1px 20px;
+    
     border-radius: 10px;
     border: none;
     width: 300px;
     height: 100px;
     cursor: pointer;
+    margin-left: -350px;
     background-image: url("Upgrades.png");
     background-size: contain;      /* Bild vollständig anzeigen */
     background-position: center;   /* schön mittig */
     background-repeat: no-repeat;  /* nicht wiederholen */
     background-color: transparent; /* sonst schimmert was durch */
+    
     
 }
 #clickImg {
@@ -58,7 +67,9 @@ button {
 #clickImg:active {
     transform: scale(0.95);
 }
-
+#clickArea br {
+    line-height: 1px;  /* Abstand zwischen den Buttons */
+}
 #clickArea {
     
     width: 350px;
@@ -83,21 +94,22 @@ button {
 }
 
 #clickArea:hover {
-    background-color: #f7b733; /* hover */
+    background-color: #f5daa1; /* hover */
 }
 
 #clickArea:active {
-    background-color: #d35400; /* clicked */
+    background-color: #f07171; /* clicked */
 }
 #layout {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* Abstand zwischen Buttons & Bild */
+    gap: 5px; /* Abstand zwischen Buttons & Bild */
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    margin-top:200px;
 }
