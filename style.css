@@ -33,11 +33,11 @@ h1 {
 
 button {
     font-size: 24px;
-    padding: 15px 30px;
+    padding: 1px 20px;
     border-radius: 10px;
     border: none;
     width: 300px;
-    height: 150px;
+    height: 100px;
     cursor: pointer;
     background-image: url("Upgrades.png");
     background-size: contain;      /* Bild vollständig anzeigen */
@@ -48,8 +48,11 @@ button {
 }
 #clickImg {
     width: 300px;
+    height: 300px;
     cursor: pointer;
     user-select: none;
+    position: absolute;
+    top: 100px;
 }
 
 #clickImg:active {
@@ -58,15 +61,25 @@ button {
 
 #clickArea {
     
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 530px;
     background-color: #f0c27b; /* normal */
-   
+    
+    position: absolute;
+    bottom: 120px;
+    right:400px;              /* etwas rechts von der Mitte */
+    transform: translateX(-50%);
     cursor: pointer;
     transition: background-color 0.2s ease;
     display: flex; /* flexbox für zentrierten Inhalt */
     justify-content: right; /* horizontal zentrieren */
     align-items: right; /* vertikal zentrieren */
+    background-image: url("Rectangle\ 2.png");
+    background-size: contain;      /* Bild vollständig anzeigen */
+    background-position: center;   /* schön mittig */
+    background-repeat: no-repeat;  /* nicht wiederholen */
+    background-color: transparent; /* sonst schimmert was durch */
+    background-size: 350px;
 }
 
 #clickArea:hover {
