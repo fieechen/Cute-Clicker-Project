@@ -3,7 +3,17 @@ body {
     color: #ffb7b7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    
+    
+}
+
+#background {
+    background-image: url("div1.png");
+    
+    background-position: center;
+    background-size: 900px;      
+    background-repeat: no-repeat; 
+    min-height: 100vh;      /* Originalgröße behalten */
     
 }
 
