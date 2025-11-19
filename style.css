@@ -1,6 +1,6 @@
 body {
     background: #222;
-    color: #ffb7b7;
+    color: #ff9292;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif, sans-serif;
     text-align: center;
     
@@ -25,6 +25,10 @@ body {
 h1 {
     font-size: 60px;
     color:#f59c9c;
+    margin-top: 35px;
+    text-align: unset;
+    margin-right: 280px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 button {
