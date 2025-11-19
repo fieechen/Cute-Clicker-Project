@@ -1,0 +1,24 @@
+{
+  "name": "cute-clicker-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fieechen/Cute-Clicker-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fieechen/Cute-Clicker-Project/issues"
+  },
+  "homepage": "https://github.com/fieechen/Cute-Clicker-Project#readme",
+  "devDependencies": {
+    "electron": "^39.2.2"
+  }
+}
