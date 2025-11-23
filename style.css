@@ -10,12 +10,12 @@ body {
     display: none;
 }
 #background {
-    background-image: url("div1.png");
-    
+    background-image: url("div1.png"); 
     background-position: center;
     background-size: 900px;      
     background-repeat: no-repeat; 
     min-height: 100vh;      /* Originalgröße behalten */
+    background-color: transparent; /* sonst schimmert was durch */
     
 }
 
@@ -41,8 +41,7 @@ h1 {
 }
 
 button {
-    font-size: 24px;
-    
+    font-size: 18px;
     border-radius: 10px;
     border: none;
     width: 300px;
@@ -56,6 +55,9 @@ button {
     background-color: transparent; /* sonst schimmert was durch */
     
     
+}
+.boost {
+    height: 300px;
 }
 #clickImg {
     width: 300px;
