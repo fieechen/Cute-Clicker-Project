@@ -6,7 +6,9 @@ body {
     
     
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 #background {
     background-image: url("div1.png");
     
@@ -78,7 +80,7 @@ button {
     
     position: absolute;
     bottom: 120px;
-    right:400px;              /* etwas rechts von der Mitte */
+    left:600px;              /* etwas rechts von der Mitte */
     transform: translateX(-50%);
     cursor: pointer;
     transition: background-color 0.2s ease;
