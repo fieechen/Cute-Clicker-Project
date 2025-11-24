@@ -35,7 +35,7 @@ body {
 h1 {
     font-size: 60px;
     color:#f59c9c;
-    margin-top: 54px;
+    margin-top: 58px;
     text-align: unset;
     margin-right: 280px;
     font-family:'Courier New', Courier, monospace;
@@ -43,13 +43,13 @@ h1 {
 
 button {
     font-size: 18px;
-    border-radius: 10px;
     border: none;
     cursor: pointer;
     background-size: contain;      /* Bild vollständig anzeigen */
     background-position: center;   /* schön mittig */
     background-repeat: no-repeat;  /* nicht wiederholen */
     background-color: transparent; /* sonst schimmert was durch */
+    margin-left: 20px;
     
     
 }
@@ -57,25 +57,31 @@ button {
   background-image: url("Upgrades.png");
   width: 300px;
   height: 100px;
+  margin-top: 20px;
 }
 #button2{
   background-image: url("Upgrades.png");
   width: 300px;
   height: 100px;
+  margin-top: -40px;
 }
 
 #button3{
   background-image: url("Upgrades.png");
   width: 300px;
-  height: 100px;;
+  height: 100px;
+  margin-top: -40px;
 }
 #button4{
   background-image: url("UpgradeBoost.png");
   width: 300px;
   height: 300px;
+  margin-top: -20px;
  
 }
-
+br{
+    font-size: 2px;
+}
 #clickImg {
     width: 300px;
     height: 300px;
@@ -87,9 +93,6 @@ button {
 
 #clickImg:active {
     transform: scale(0.95);
-}
-#clickArea br {
-    line-height: 1px;  /* Abstand zwischen den Buttons */
 }
 #clickArea {
     
@@ -125,13 +128,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px; /* Abstand zwischen Buttons & Bild */
+    gap: 1px; /* Abstand zwischen Buttons & Bild */
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    margin-top:10px;
+    margin-top:75px;
     margin-right: 450px;
+    gap: 5px;
 }
