@@ -3,7 +3,7 @@ body {
     color: #ff9292;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif, sans-serif;
     text-align: center;
-    
+    cursor: url("CursorDEFAULT.png");
     
 }
 ::-webkit-scrollbar {
@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat; 
     min-height: 100vh;      /* Originalgröße behalten */
     background-color: transparent; /* sonst schimmert was durch */
+    cursor: url("CursorDEFAULT.png"), auto;
     
 }
 
@@ -34,7 +35,7 @@ body {
 h1 {
     font-size: 60px;
     color:#f59c9c;
-    margin-top: 52px;
+    margin-top: 54px;
     text-align: unset;
     margin-right: 280px;
     font-family:'Courier New', Courier, monospace;
@@ -44,11 +45,8 @@ button {
     font-size: 18px;
     border-radius: 10px;
     border: none;
-    width: 300px;
-    height: 100px;
     cursor: pointer;
     margin-left: -350px;
-    background-image: url("Upgrades.png");
     background-size: contain;      /* Bild vollständig anzeigen */
     background-position: center;   /* schön mittig */
     background-repeat: no-repeat;  /* nicht wiederholen */
@@ -56,9 +54,26 @@ button {
     
     
 }
-.boost {
-    height: 300px;
+#button1{
+  background-image: url("Upgrades.png");
+  width: 300px;
+  height: 100px;
 }
+#button2{
+  background-image: url("Upgrades.png");
+  width: 300px;
+  height: 100px;
+}
+
+#button3{
+  background-image: url("Upgrades.png");
+  width: 300px;
+  height: 100px;
+}
+#button4{
+  background-image: url("UpgradeBoost.png");
+}
+
 #clickImg {
     width: 300px;
     height: 300px;
