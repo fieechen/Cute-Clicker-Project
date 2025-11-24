@@ -58,20 +58,25 @@ button {
   background-image: url("Upgrades.png");
   width: 300px;
   height: 100px;
+  margin-left: -350px;
 }
 #button2{
   background-image: url("Upgrades.png");
   width: 300px;
   height: 100px;
+  margin-left: -350px;
 }
 
 #button3{
   background-image: url("Upgrades.png");
   width: 300px;
   height: 100px;
+  margin-left: -350px;
 }
 #button4{
   background-image: url("UpgradeBoost.png");
+  width: 400px;
+  height: 300px;
 }
 
 #clickImg {
