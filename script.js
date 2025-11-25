@@ -11,6 +11,7 @@ const upgrade1 = document.getElementById("upgrade1");
 const upgrade2 = document.getElementById("upgrade2");
 const upgrade3 = document.getElementById("upgrade3");
 
+
 // Klick-Logik für Hauptbutton
 clickBtn.addEventListener("click", () => {
     count += clickPower;
