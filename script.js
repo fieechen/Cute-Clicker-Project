@@ -74,7 +74,7 @@ upgrade3.addEventListener("click", () => {
 boost.addEventListener("click", () => {
     if (count >= 300) {
         count -= 300; // Upgrade kostet 50 Beans
-        clickPower = *2; // 
+        clickPower = +8; // 
         counter.textContent = count;
         boost.disabled = true; // optional: nur einmal kaufbar
     }
