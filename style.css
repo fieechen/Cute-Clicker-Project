@@ -3,7 +3,7 @@ body {
     color: #ff9292;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif, sans-serif;
     text-align: center;
-    cursor: url("CursorDEFAULT.png");
+    cursor: url("CursorDEFAULT2.png"), auto;
     
 }
 ::-webkit-scrollbar {
@@ -16,10 +16,14 @@ body {
     background-repeat: no-repeat; 
     min-height: 100vh;      /* Originalgröße behalten */
     background-color: transparent; /* sonst schimmert was durch */
-    cursor: url("CursorDEFAULT.png"), auto;
+    
     
 }
-
+.cursors {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: url("CursorDEFAULT2.png"), auto;
+}
 #counter {
     font-size: 42px;
     height: 50px;
